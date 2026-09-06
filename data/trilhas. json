@@ -1,0 +1,22 @@
+{
+  "trilhas": [
+    {
+      "id": "ibm-bob",
+      "nome": "IBM Bob",
+      "descricao": "Trilha principal de exploração e agentes de IA",
+      "niveis": ["Iniciante", "Intermediário", "Avançado"]
+    },
+    {
+      "id": "n8n",
+      "nome": "N8N",
+      "descricao": "Automação de fluxos de trabalho",
+      "niveis": ["Iniciante", "Intermediário", "Avançado"]
+    },
+    {
+      "id": "power-bi",
+      "nome": "Power BI",
+      "descricao": "Visualização de dados e inteligência de negócios",
+      "niveis": ["Iniciante", "Intermediário", "Avançado"]
+    }
+  ]
+}
