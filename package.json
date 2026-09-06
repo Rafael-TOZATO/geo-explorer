@@ -1,0 +1,19 @@
+{
+  "name": "geo-explorer",
+  "version": "1.0.0",
+  "description": "Exploração interativa de trilhas de aprendizagem e emissão de certificados",
+  "main": "index.js",
+  "scripts": {
+    "trilha": "node commands/trilha.js",
+    "desafio": "node commands/desafio.js",
+    "certificado": "node commands/certificado.js"
+  },
+  "keywords": [
+    "nodejs",
+    "portfolio",
+    "educacao",
+    "ibm-bob"
+  ],
+  "author": "Rafael Ornelas Tozato",
+  "license": "MIT"
+}
