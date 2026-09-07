@@ -1,5 +1,7 @@
 # Geo-Explorer
 
+[![Branch Protection](https://img.shields.io/badge/branch%20protection-enabled-brightgreen.svg)](https://github.com/Rafael-TOZATO/geo-explorador/settings/rules)
+
 > **Autor:** Rafael Ornelas Tozato  
 > **Instituição:** Centro Universitário Unifatecie (Engenharia Química | 2024-2029)  
 > **Governança Técnica:** `branch protection active` (Rulesets ativos com bloqueio de *force push* e exclusão)  
