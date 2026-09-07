@@ -6,14 +6,24 @@
   "scripts": {
     "trilha": "node commands/trilha.js",
     "desafio": "node commands/desafio.js",
-    "certificado": "node commands/certificado.js"
+    "certificado": "node commands/certificado.js",
+    "mcp": "node mcp/server.js",
+    "test": "jest"
   },
   "keywords": [
     "nodejs",
     "portfolio",
     "educacao",
-    "ibm-bob"
+    "ibm-bob",
+    "mcp"
   ],
   "author": "Rafael Ornelas Tozato",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^30.5.1"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.5.4"
+  }
 }
