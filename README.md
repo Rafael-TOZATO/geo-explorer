@@ -1,13 +1,14 @@
 <p align="center">
+  <p align="center">
+  <img src="banner-geo-explorer.png" alt="Geo-Explorer Banner - Trilhas, Desafios e Certificados" width="100%">
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Status-Ativo-success?style=for-the-badge&logo=git" alt="Status">
   <img src="https://img.shields.io/badge/Node.js-18%2B-green?style=for-the-badge&logo=nodedotjs" alt="Node.js">
   <img src="https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript" alt="JavaScript">
   <img src="https://img.shields.io/badge/Testes-Jest-red?style=for-the-badge&logo=jest" alt="Jest">
   <img src="https://img.shields.io/badge/Protocolo-MCP-blue?style=for-the-badge&logo=modelcontextprotocol" alt="MCP">
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=120&section=header&text=Geo-Explorer%20MCP%20Trilhas&fontSize=24&animation=fadeIn&fontColor=fff" alt="Geo-Explorer Banner" width="100%">
 </p>
 
 # Geo-Explorer
