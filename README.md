@@ -15,16 +15,16 @@
 
 > **Autor:** Rafael Ornelas Tozato  
 > **Instituição:** Centro Universitário Unifatecie (Engenharia Química | 2024–2029)  
-> **Governança Técnica:** Branch protection ativa (Rulesets ativos com bloqueio de force push e exclusão)[cite: 2]  
-> **Desafio:** DIO — Bootcamp IBM Bob (Nível Empresarial para Desenvolvedores)[cite: 2]  
+> **Governança Técnica:** Branch protection ativa (Rulesets ativos com bloqueio de force push e exclusão)
+> **Desafio:** DIO — Bootcamp IBM Bob (Nível Empresarial para Desenvolvedores)  
 
 ---
 
 ## Sobre o Projeto
 
-O **Geo-Explorer** é uma aplicação interativa desenvolvida com o suporte do IBM Bob, projetada para gerenciar e explorar trilhas de aprendizagem[cite: 2]. A proposta central é permitir que a pessoa usuária consulte um plano de estudos por tecnologia, receba um desafio de código parametrizado pelo nível informado e gere um certificado fictício de conclusão[cite: 2].
+O **Geo-Explorer** é uma aplicação interativa desenvolvida com o suporte do IBM Bob, projetada para gerenciar e explorar trilhas de aprendizagem. A proposta central é permitir que a pessoa usuária consulte um plano de estudos por tecnologia, receba um desafio de código parametrizado pelo nível informado e gere um certificado fictício de conclusão.
 
-O projeto expõe essas três funcionalidades de duas formas: como comandos de linha de comando (CLI) e como ferramentas de um servidor MCP, permitindo que agentes de IA e outras ferramentas externas consultem trilhas, gerem desafios e emitam certificados de forma programática[cite: 2].
+O projeto expõe essas três funcionalidades de duas formas: como comandos de linha de comando (CLI) e como ferramentas de um servidor MCP, permitindo que agentes de IA e outras ferramentas externas consultem trilhas, gerem desafios e emitam certificados de forma programática.
 
 ---
 
