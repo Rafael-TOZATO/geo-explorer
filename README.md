@@ -133,7 +133,7 @@ Trabalhar com o servidor MCP também trouxe um aprendizado técnico específico:
 
 ## Contato
 
-- **E-mail:** [ornelas.tozato@gmail.com](mailto:ornelas.tozato@gmail.com)
-- **LinkedIn:** [Rafael Ornelas Tozato](https://www.linkedin.com/in/rafaeltozato81)
-- **Medium:** [Rafael Ornelas Tozato](https://medium.com/@ornelas.tozato)
-- **GitHub:** [Rafael-TOZATO](https://github.com/Rafael-TOZATO)
+- LinkedIn: [linkedin.com/in/rafael-tozato](https://linkedin.com/in/rafael-tozato)
+- GitHub: [github.com/Rafael-TOZATO](https://github.com/Rafael-TOZATO)
+- Medium: [medium.com/@rafael.tozato](https://medium.com/@rafael.tozato)
+- Aurora BI: [aurora-bi-dio.lovable.app](https://aurora-bi-dio.lovable.app)
