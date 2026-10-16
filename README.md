@@ -1,21 +1,21 @@
 <p align="center">
-  <p align="center">
   <img src="banner-geo-explorer.png" alt="Geo-Explorer Banner - Trilhas, Desafios e Certificados" width="100%">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Ativo-success?style=for-the-badge&logo=git" alt="Status">
+  <img src="https://img.shields.io/badge/Status-Homologado-success?style=for-the-badge&logo=git" alt="Status">
   <img src="https://img.shields.io/badge/Node.js-18%2B-green?style=for-the-badge&logo=nodedotjs" alt="Node.js">
   <img src="https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript" alt="JavaScript">
   <img src="https://img.shields.io/badge/Testes-Jest-red?style=for-the-badge&logo=jest" alt="Jest">
   <img src="https://img.shields.io/badge/Protocolo-MCP-blue?style=for-the-badge&logo=modelcontextprotocol" alt="MCP">
+  <img src="https://img.shields.io/badge/Replit-Homologado-green?style=for-the-badge&logo=replit&logoColor=white" alt="Replit Homologado">
 </p>
 
 # Geo-Explorer
 
 > **Autor:** Rafael Ornelas Tozato  
 > **Instituição:** Centro Universitário Unifatecie (Engenharia Química | 2024–2029)  
-> **Governança Técnica:** Branch protection ativa (Rulesets ativos com bloqueio de force push e exclusão)
+> **Governança Técnica:** Branch protection ativa (Rulesets ativos com bloqueio de force push e exclusão)  
 > **Desafio:** DIO — Bootcamp IBM Bob (Nível Empresarial para Desenvolvedores)  
 
 ---
@@ -53,16 +53,16 @@ geo-explorer/
 
 > **Autor:** Rafael Ornelas Tozato  
 > **Instituição:** Centro Universitário Unifatecie (Engenharia Química | 2024–2029)  
-> **Governança Técnica:** Branch protection ativa (Rulesets ativos com bloqueio de force push e exclusão)[cite: 2]  
-> **Desafio:** DIO — Bootcamp IBM Bob (Nível Empresarial para Desenvolvedores)[cite: 2]  
+> **Governança Técnica:** Branch protection ativa (Rulesets ativos com bloqueio de force push e exclusão) 
+> **Desafio:** DIO — Bootcamp IBM Bob (Nível Empresarial para Desenvolvedores) 
 
 ---
 
 ## Sobre o Projeto
 
-O **Geo-Explorer** é uma aplicação interativa desenvolvida com o suporte do IBM Bob, projetada para gerenciar e explorar trilhas de aprendizagem[cite: 2]. A proposta central é permitir que a pessoa usuária consulte um plano de estudos por tecnologia, receba um desafio de código parametrizado pelo nível informado e gere um certificado fictício de conclusão[cite: 2].
+O **Geo-Explorer** é uma aplicação interativa desenvolvida com o suporte do IBM Bob, projetada para gerenciar e explorar trilhas de aprendizagem. A proposta central é permitir que a pessoa usuária consulte um plano de estudos por tecnologia, receba um desafio de código parametrizado pelo nível informado e gere um certificado fictício de conclusão.
 
-O projeto expõe essas três funcionalidades de duas formas: como comandos de linha de comando (CLI) e como ferramentas de um servidor MCP, permitindo que agentes de IA e outras ferramentas externas consultem trilhas, gerem desafios e emitam certificados de forma programática[cite: 2].
+O projeto expõe essas três funcionalidades de duas formas: como comandos de linha de comando (CLI) e como ferramentas de um servidor MCP, permitindo que agentes de IA e outras ferramentas externas consultem trilhas, gerem desafios e emitam certificados de forma programática.
 
 ---
 
@@ -75,41 +75,50 @@ geo-explorer/
 ├── mcp/            # Servidor MCP para integração com ferramentas externas e agentes
 ├── tests/          # Testes automatizados (Jest) para validação da lógica de negócio
 └── README.md       # Documentação institucional e técnica do projeto
+
 ---
 
 ## Como Executar o Projeto
 
-```bash
-git clone https://github.com/Rafael-TOZATO/geo-explorer.git
-cd geo-explorer
-npm install
-```
+git clone [https://github.com/Rafael-TOZATO/geo-explorer.git](https://github.com/Rafael-TOZATO/geo-explorer.git) && cd geo-explorer && npm install && node commands/trilha.js power-bi && node commands/desafio.js power-bi Avançado && node commands/certificado.js "Seu Nome" "N8N" && npm run mcp && npm test
+
 ---
 
-git clone [https://github.com/Rafael-TOZATO/geo-explorer.git](https://github.com/Rafael-TOZATO/geo-explorer.git)
-cd geo-explorer
-npm install
+## Comandos de Execução (CLI)
 
-### Desafio
+node commands/trilha.js power-bi
+
+---
+
+## Desafio
+
 node commands/desafio.js power-bi Avançado
 
-### Certificado
+---
+
+## Certificado
+
 node commands/certificado.js "Seu Nome" "N8N"
 
 **Trilhas disponíveis:** `ibm-bob`, `n8n`, `power-bi`
 **Níveis disponíveis:** `Iniciante`, `Intermediário`, `Avançado`
 
-### Servidor MCP
+---
+
+## Servidor MCP
+
 Inicia o servidor MCP (protocolo stdio), expondo as três funcionalidades acima como ferramentas (`trilha`, `desafio`, `certificado`) para agentes e clientes MCP:
 ```bash
 npm run mcp
+
+---
 
 ## Como Executar os Testes
 
 O projeto usa Jest para testes unitários da lógica de negócio dos três comandos:
 ```bash
 npm test
-```
+
 ---
 
 ## Melhorias Realizadas
